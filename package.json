@@ -4,7 +4,8 @@
   "description": "CSE-341 Backend II class projects repository.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/hansen-ri/CSE341-Node.js/issues"
   },
-  "homepage": "https://github.com/hansen-ri/CSE341-Node.js#readme"
+  "homepage": "https://github.com/hansen-ri/CSE341-Node.js#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
